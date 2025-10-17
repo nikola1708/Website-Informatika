@@ -35,48 +35,45 @@
     <div id="site_content">
 
       <div id="content">
-        <!-- insert the page content here -->
-        <h1>Mahasiswa Page</h1>
-        <p>This page contains examples of all the styled elements available as part of this design. Use this page for reference, whilst you build your website.</p>
-       
-        <h2>Images</h2>
-        <p>images can be placed on the left, in the center or on the right:</p>
-        <span class="left"><img src="style/graphic.png" alt="example graphic" /></span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum.
-        </p>
-        <span class="center"><img src="style/graphic.png" alt="example graphic" /></span>
-        <span class="right"><img src="style/graphic.png" alt="example graphic" /></span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-        <h2>Tables</h2>
-        <p>Tables should be used to display data and not used for laying out your website:</p>
-        <table style="width:100%; border-spacing:0;">
-          <tr><th>Item</th><th>Description</th></tr>
-          <tr><td>Item 1</td><td>Description of Item 1</td></tr>
-          <tr><td>Item 2</td><td>Description of Item 2</td></tr>
-          <tr><td>Item 3</td><td>Description of Item 3</td></tr>
-          <tr><td>Item 4</td><td>Description of Item 4</td></tr>
-        </table>
-        <h2>Form Elements</h2>
-        <form action="#" method="post">
-          <div class="form_settings">
-            <p><span>Form field example</span><input type="text" name="name" value="" /></p>
-            <p><span>Textarea example</span><textarea rows="8" cols="50" name="name"></textarea></p>
-            <p><span>Checkbox example</span><input class="checkbox" type="checkbox" name="name" value="" /></p>
-            <p><span>Dropdown list example</span><select id="id" name="name"><option value="1">Example 1</option><option value="2">Example 2</option></select></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="button" /></p>
-          </div>
-        </form>
-      </div>
+    <!-- insert the page content here -->
+    <h1>Mahasiswa di Universitas Informatika</h1>
+    <p>Di Universitas Informatika, mahasiswa adalah pusat dari setiap kegiatan akademik dan pengembangan diri. Kami percaya bahwa mahasiswa tidak hanya belajar di dalam kelas, tetapi juga berkembang melalui kegiatan ekstrakurikuler, penelitian, dan pengalaman langsung yang mereka dapatkan selama masa studi.</p>
+
+    <h2>Pengalaman Mahasiswa</h2>
+    <p>Menjadi mahasiswa di universitas kami berarti memiliki kesempatan untuk belajar dengan para ahli di bidangnya, berkolaborasi dalam proyek-proyek inovatif, dan berinteraksi dengan mahasiswa dari berbagai latar belakang. Kami menekankan pentingnya keterlibatan mahasiswa dalam kegiatan kampus, yang dapat membantu mengembangkan keterampilan kepemimpinan, kerja tim, dan kreativitas.</p>
+
+    <h3>Aktivitas Ekstrakurikuler</h3>
+    <p>Universitas Informatika menawarkan berbagai macam kegiatan ekstrakurikuler untuk mahasiswa, mulai dari organisasi kemahasiswaan, klub teknologi, olahraga, hingga seni dan budaya. Kegiatan ini dirancang untuk memperkaya pengalaman mahasiswa dan memberikan kesempatan untuk mengasah keterampilan di luar kelas.</p>
+
+    <h3>Program Magang dan Kerja Lapangan</h3>
+    <p>Sebagai bagian dari komitmen kami untuk mempersiapkan mahasiswa menghadapi dunia profesional, kami menawarkan berbagai program magang dan kerja lapangan di perusahaan mitra kami. Melalui magang, mahasiswa dapat mengaplikasikan ilmu yang telah dipelajari di kelas dalam situasi dunia nyata, memperluas jaringan profesional, dan meningkatkan peluang kerja setelah lulus.</p>
+
+    <h3>Mahasiswa Berprestasi</h3>
+    <p>Universitas Informatika memberikan penghargaan kepada mahasiswa yang menunjukkan prestasi luar biasa, baik di bidang akademik, olahraga, maupun seni. Kami percaya bahwa setiap mahasiswa memiliki potensi untuk menjadi yang terbaik, dan kami berkomitmen untuk memberikan dukungan penuh agar mereka dapat mencapai tujuan mereka.</p>
+
+    <h2>Fasilitas untuk Mahasiswa</h2>
+    <p>Kami menyediakan berbagai fasilitas yang mendukung kegiatan belajar mengajar dan pengembangan diri mahasiswa, di antaranya:</p>
+    <ul>
+        <li><strong>Ruang Kelas Modern:</strong> Dilengkapi dengan teknologi terbaru untuk mendukung proses pembelajaran yang interaktif dan menyenangkan.</li>
+        <li><strong>Perpustakaan Digital:</strong> Mengakses koleksi buku, jurnal, dan materi akademik lainnya secara online melalui platform perpustakaan digital.</li>
+        <li><strong>Laboratorium Komputer:</strong> Fasilitas lab komputer dengan perangkat lunak terbaru yang mendukung berbagai program studi, khususnya di bidang teknologi dan desain.</li>
+        <li><strong>Area Diskusi:</strong> Ruang untuk mahasiswa berdiskusi, berbagi ide, dan bekerja sama dalam proyek-proyek kelompok.</li>
+        <li><strong>Wi-Fi Gratis:</strong> Akses internet cepat yang tersedia di seluruh area kampus, mendukung kegiatan pembelajaran dan riset mahasiswa.</li>
+    </ul>
+
+    <h2>Proses Penerimaan Mahasiswa Baru</h2>
+    <p>Untuk menjadi bagian dari komunitas Universitas Informatika, calon mahasiswa harus melalui proses pendaftaran yang transparan dan mudah. Kami menerima pendaftaran baik secara online maupun offline, dengan berbagai pilihan program studi yang dapat disesuaikan dengan minat dan tujuan karir calon mahasiswa. Untuk informasi lebih lanjut, silakan kunjungi <a href="/pendaftaran">halaman pendaftaran kami</a>.</p>
+
+    <h2>Browser Compatibility</h2>
+    <p>Website kami dapat diakses dengan baik di berbagai browser modern, termasuk:</p>
+    <ul>
+        <li>Google Chrome</li>
+        <li>Mozilla Firefox</li>
+        <li>Microsoft Edge</li>
+    </ul>
+    <p>Pastikan Anda menggunakan browser terbaru untuk pengalaman menjelajah yang optimal.</p>
+</div>
+
     </div>
     <div id="content_footer"></div>
      @include('layout.footer')

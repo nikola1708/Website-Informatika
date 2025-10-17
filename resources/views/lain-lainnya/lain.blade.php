@@ -34,49 +34,61 @@
     <div id="content_header"></div>
     <div id="site_content">
 
-      <div id="content">
-        <!-- insert the page content here -->
-        <h1>Lainnya Page</h1>
-        <p>This page contains examples of all the styled elements available as part of this design. Use this page for reference, whilst you build your website.</p>
-       
-        <h2>Images</h2>
-        <p>images can be placed on the left, in the center or on the right:</p>
-        <span class="left"><img src="style/graphic.png" alt="example graphic" /></span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum.
-        </p>
-        <span class="center"><img src="style/graphic.png" alt="example graphic" /></span>
-        <span class="right"><img src="style/graphic.png" alt="example graphic" /></span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-        <h2>Tables</h2>
-        <p>Tables should be used to display data and not used for laying out your website:</p>
-        <table style="width:100%; border-spacing:0;">
-          <tr><th>Item</th><th>Description</th></tr>
-          <tr><td>Item 1</td><td>Description of Item 1</td></tr>
-          <tr><td>Item 2</td><td>Description of Item 2</td></tr>
-          <tr><td>Item 3</td><td>Description of Item 3</td></tr>
-          <tr><td>Item 4</td><td>Description of Item 4</td></tr>
-        </table>
-        <h2>Form Elements</h2>
-        <form action="#" method="post">
-          <div class="form_settings">
-            <p><span>Form field example</span><input type="text" name="name" value="" /></p>
-            <p><span>Textarea example</span><textarea rows="8" cols="50" name="name"></textarea></p>
-            <p><span>Checkbox example</span><input class="checkbox" type="checkbox" name="name" value="" /></p>
-            <p><span>Dropdown list example</span><select id="id" name="name"><option value="1">Example 1</option><option value="2">Example 2</option></select></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="button" /></p>
-          </div>
-        </form>
-      </div>
+     <div id="content">
+    <!-- insert the page content here -->
+    <h1>Halaman Lainnya</h1>
+    <p>Di halaman ini, Anda akan menemukan berbagai informasi menarik dan tambahan yang tidak tercakup dalam kategori utama lainnya. Kami berkomitmen untuk memberikan berbagai konten yang relevan dan bermanfaat bagi pengunjung kami.</p>
+
+    <h2>Berita Terbaru</h2>
+    <p>Kami selalu berusaha memperbarui pengunjung kami dengan berita terbaru seputar dunia pendidikan, teknologi, dan kegiatan kampus. Berikut adalah beberapa berita terbaru yang bisa Anda baca:</p>
+
+    <ul>
+        <li><a href="#">Penelitian Terbaru: Inovasi dalam Pendidikan Digital</a></li>
+        <li><a href="#">Pengenalan Fasilitas Kampus Baru untuk Mahasiswa</a></li>
+        <li><a href="#">Program Magang Tahun 2025 Dibuka! Daftar Sekarang</a></li>
+        <li><a href="#">Partisipasi Universitas dalam Konferensi Internasional</a></li>
+    </ul>
+
+    <h2>Acara Mendatang</h2>
+    <p>Berikut adalah beberapa acara yang akan datang di kampus kami. Jangan lewatkan kesempatan untuk berpartisipasi dalam acara-acara berikut:</p>
+    
+    <ul>
+        <li><strong>Workshop Teknologi dan Inovasi:</strong> Pelatihan tentang teknologi terbaru di dunia pendidikan - 10 November 2025.</li>
+        <li><strong>Seminar Pendidikan Tinggi:</strong> Diskusi tentang masa depan pendidikan tinggi di Indonesia - 15 November 2025.</li>
+        <li><strong>Job Fair 2025:</strong> Kesempatan kerja bagi mahasiswa dan alumni - 25 November 2025.</li>
+    </ul>
+
+    <h2>Informasi Penting</h2>
+    <p>Untuk mendukung mahasiswa dalam kegiatan akademik dan non-akademik, berikut adalah beberapa informasi penting yang perlu diketahui:</p>
+    
+    <ul>
+        <li><strong>Jadwal Ujian Semester Gasal 2025:</strong> Pastikan Anda mengetahui jadwal ujian semester ini dan mempersiapkan diri dengan baik.</li>
+        <li><strong>Prosedur Pendaftaran Kursus Online:</strong> Mahasiswa dapat mengakses dan mendaftar kursus secara online melalui portal mahasiswa.</li>
+        <li><strong>Peraturan Kampus:</strong> Jangan lupa untuk membaca dan memahami peraturan kampus yang berlaku.</li>
+    </ul>
+
+    <h2>Galeri Foto</h2>
+    <p>Berikut adalah beberapa foto kegiatan yang telah berlangsung di kampus kami. Anda bisa melihat lebih banyak foto kegiatan di galeri kami:</p>
+
+    <div class="photo-gallery">
+        <img src="style/graphic.png" alt="Foto Kegiatan Kampus 1" />
+        <img src="style/graphic.png" alt="Foto Kegiatan Kampus 2" />
+        <img src="style/graphic.png" alt="Foto Kegiatan Kampus 3" />
+    </div>
+
+    <h2>Formulir Kontak</h2>
+    <p>Jika Anda memiliki pertanyaan atau ingin memberikan masukan, silakan hubungi kami melalui formulir di bawah ini:</p>
+    
+    <form action="#" method="post">
+        <div class="form_settings">
+            <p><span>Nama Anda</span><input type="text" name="name" value="" /></p>
+            <p><span>Email Anda</span><input type="email" name="email" value="" /></p>
+            <p><span>Pesan Anda</span><textarea rows="8" cols="50" name="message"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="submit" value="Kirim Pesan" /></p>
+        </div>
+    </form>
+</div>
+
     </div>
     <div id="content_footer"></div>
      @include('layout.footer')

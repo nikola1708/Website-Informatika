@@ -34,49 +34,53 @@
     <div id="content_header"></div>
     <div id="site_content">
 
-      <div id="content">
-        <!-- insert the page content here -->
-        <h1>Pendidikan  Page</h1>
-        <p>This page contains examples of all the styled elements available as part of this design. Use this page for reference, whilst you build your website.</p>
-      
-        <h2>Images</h2>
-        <p>images can be placed on the left, in the center or on the right:</p>
-        <span class="left"><img src="style/graphic.png" alt="example graphic" /></span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum.
-        </p>
-        <span class="center"><img src="style/graphic.png" alt="example graphic" /></span>
-        <span class="right"><img src="style/graphic.png" alt="example graphic" /></span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-        <h2>Tables</h2>
-        <p>Tables should be used to display data and not used for laying out your website:</p>
-        <table style="width:100%; border-spacing:0;">
-          <tr><th>Item</th><th>Description</th></tr>
-          <tr><td>Item 1</td><td>Description of Item 1</td></tr>
-          <tr><td>Item 2</td><td>Description of Item 2</td></tr>
-          <tr><td>Item 3</td><td>Description of Item 3</td></tr>
-          <tr><td>Item 4</td><td>Description of Item 4</td></tr>
-        </table>
-        <h2>Form Elements</h2>
-        <form action="#" method="post">
-          <div class="form_settings">
-            <p><span>Form field example</span><input type="text" name="name" value="" /></p>
-            <p><span>Textarea example</span><textarea rows="8" cols="50" name="name"></textarea></p>
-            <p><span>Checkbox example</span><input class="checkbox" type="checkbox" name="name" value="" /></p>
-            <p><span>Dropdown list example</span><select id="id" name="name"><option value="1">Example 1</option><option value="2">Example 2</option></select></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="button" /></p>
-          </div>
-        </form>
-      </div>
+     <div id="content">
+    <!-- insert the page content here -->
+    <h1>Pendidikan di Era Digital</h1>
+    <p>Pendidikan adalah fondasi utama dalam pembangunan suatu bangsa. Di dunia yang semakin terhubung secara digital, pendidikan memainkan peran yang semakin penting dalam membentuk generasi masa depan yang dapat bersaing di tingkat global. Di universitas kami, kami percaya bahwa pendidikan yang baik bukan hanya tentang pengajaran di ruang kelas, tetapi juga pengembangan keterampilan yang relevan dengan kebutuhan industri yang terus berkembang.</p>
+
+    <h2>Pendidikan Berbasis Teknologi</h2>
+    <p>Seiring dengan kemajuan teknologi, pendidikan juga telah bertransformasi. Teknologi telah membuka berbagai kemungkinan baru dalam cara kita mengakses informasi, berinteraksi, dan belajar. Pembelajaran berbasis teknologi, seperti e-learning, kelas daring, dan penggunaan aplikasi pendidikan, memungkinkan mahasiswa untuk belajar kapan saja dan di mana saja.</p>
+    
+    <p>Di Universitas Informatika, kami mengintegrasikan teknologi dalam kurikulum kami untuk memastikan mahasiswa tidak hanya memahami teori tetapi juga mendapatkan keterampilan praktis yang dibutuhkan di dunia profesional. Dengan memanfaatkan teknologi seperti platform pembelajaran online, aplikasi kolaborasi, dan alat digital lainnya, kami memberikan pengalaman belajar yang lebih interaktif dan fleksibel.</p>
+
+    <h2>Pentingnya Pendidikan Tinggi</h2>
+    <p>Pendidikan tinggi memberikan landasan yang kuat untuk karir profesional. Selain memberikan pengetahuan akademis yang mendalam, pendidikan tinggi juga mengembangkan keterampilan seperti berpikir kritis, pemecahan masalah, dan kemampuan untuk bekerja dalam tim. Di era yang serba cepat ini, kemampuan untuk beradaptasi dengan teknologi dan dunia yang terus berubah adalah kunci kesuksesan.</p>
+
+    <p>Program studi di Universitas Informatika dirancang untuk mempersiapkan mahasiswa menghadapi tantangan industri yang semakin kompleks. Kami menawarkan program-program yang berfokus pada teknologi informasi, ilmu komputer, desain grafis, dan manajemen sistem informasi. Selain itu, kami juga mendorong mahasiswa untuk berpartisipasi dalam riset, magang industri, dan proyek-proyek praktis yang relevan dengan kebutuhan pasar.</p>
+
+    <h2>Transformasi Digital dalam Pembelajaran</h2>
+    <p>Transformasi digital dalam pendidikan tidak hanya mencakup penggunaan teknologi, tetapi juga perubahan dalam cara pengajaran dan pembelajaran dilakukan. Metode pembelajaran yang berbasis pada teknologi memungkinkan pengalaman belajar yang lebih personal, di mana mahasiswa dapat mengakses materi sesuai dengan kecepatan dan gaya belajar mereka masing-masing.</p>
+
+    <p>Di Universitas Informatika, kami menggunakan metode pengajaran campuran yang menggabungkan pembelajaran tatap muka dan daring. Ini memberi mahasiswa fleksibilitas untuk belajar dari mana saja, sambil tetap mendapatkan dukungan dan interaksi dengan dosen serta rekan-rekan mahasiswa. Kami juga menyediakan platform pembelajaran yang memungkinkan mahasiswa untuk mengakses materi perkuliahan, tugas, dan ujian secara online.</p>
+
+    <h2>Keterampilan yang Dibutuhkan di Era Digital</h2>
+    <p>Di era digital ini, mahasiswa tidak hanya membutuhkan pengetahuan teoritis, tetapi juga keterampilan praktis yang dapat diterapkan langsung dalam dunia kerja. Beberapa keterampilan yang sangat penting di dunia digital antara lain:</p>
+    <ul>
+        <li><strong>Kompetensi Teknologi:</strong> Mahasiswa harus menguasai berbagai perangkat lunak, aplikasi, dan alat digital yang digunakan dalam dunia profesional.</li>
+        <li><strong>Pemecahan Masalah:</strong> Kemampuan untuk menyelesaikan masalah secara kreatif dan efisien dengan menggunakan teknologi adalah keterampilan yang sangat dicari oleh banyak perusahaan.</li>
+        <li><strong>Keterampilan Kolaborasi:</strong> Mahasiswa harus dapat bekerja dalam tim, baik secara langsung maupun secara virtual, dengan memanfaatkan alat kolaborasi digital.</li>
+        <li><strong>Kemampuan Komunikasi Digital:</strong> Keterampilan dalam berkomunikasi secara profesional melalui email, video conference, dan platform digital lainnya sangat penting di dunia kerja saat ini.</li>
+    </ul>
+
+    <h2>Peran Pendidikan dalam Pengembangan Masyarakat</h2>
+    <p>Pendidikan bukan hanya tentang menciptakan individu yang kompeten dalam karir mereka, tetapi juga tentang membangun masyarakat yang lebih baik. Pendidikan memberikan alat untuk memahami dan memecahkan masalah sosial, ekonomi, dan lingkungan yang dihadapi masyarakat. Dengan pendidikan yang baik, generasi muda dapat berperan aktif dalam membangun dunia yang lebih adil, sejahtera, dan berkelanjutan.</p>
+
+    <h2>Kesimpulan</h2>
+    <p>Pendidikan adalah kunci untuk membuka pintu kesempatan dan mempersiapkan generasi masa depan untuk menghadapi tantangan dunia digital. Di Universitas Informatika, kami berkomitmen untuk memberikan pendidikan berkualitas yang tidak hanya mengajarkan pengetahuan tetapi juga keterampilan praktis yang dibutuhkan dalam industri teknologi. Dengan menggabungkan pembelajaran berbasis teknologi dan pengalaman dunia nyata, kami mempersiapkan mahasiswa untuk sukses di dunia yang terus berubah.</p>
+
+    <p>Jika Anda tertarik untuk bergabung dengan kami dan menjadi bagian dari komunitas akademik yang inovatif, kunjungi <a href="/registrasi">halaman pendaftaran kami</a> untuk informasi lebih lanjut.</p>
+
+    <h2>Browser Compatibility</h2>
+    <p>Website kami dapat diakses dengan baik di berbagai browser modern, termasuk:</p>
+    <ul>
+        <li>Google Chrome</li>
+        <li>Mozilla Firefox</li>
+        <li>Microsoft Edge</li>
+    </ul>
+    <p>Pastikan Anda menggunakan browser terbaru untuk pengalaman menjelajah yang optimal.</p>
+</div>
+
     </div>
     <div id="content_footer"></div>
      @include('layout.footer')
