@@ -22,7 +22,7 @@
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-        <li class="selected"><a href="{{url('/beranda')}}">Beranda</a></li>
+        <li><a href="{{url('/beranda')}}">Beranda</a></li>
           <li><a href="{{url('/profil')}}">Profil</a></li>
           <li><a href="{{url('/mahasiswa')}}">Mahasiswa</a></li>
           <li><a href="{{url('/pendidikan')}}">Pendidikan</a></li>
