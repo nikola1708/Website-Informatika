@@ -40,6 +40,65 @@ class PegawaiController extends Controller
     }
 
     //update edit
+    public function edit($id)
+    {
+        //ambil data pegawai berdasarkan id yang dipilih
+        $pegawai = DB::table('pegawai')->where('pegawai_id', $id)->first();
+        //passing data pegawai yang didapat ke view edit.blade.php
+        return view('admin.pegawai.edit', ['pegawai' => $pegawai]);
+    }
 
+    public function update(Request $request, $id)
+    
+    {
+        //update data pegawai
+        DB::table('pegawai')->where('pegawai_id', $id)->update(
+            [
+            'pegawai_nama' => $request->Nama,
+            'pegawai_jabatan' => $request->Jabatan,
+            'pegawai_umur' => $request->umur,
+            'pegawai_alamat' => $request->Alamat
+        ]
+    );
+        //alihkan halaman ke halaman pegawai
+        return redirect('/pegawai')->with('success', 'Data Pegawai Berhasil Diupdate');
+    }
     //delete
+    public function hapus($id)
+    {
+        //hapus data pegawai berdasarkan id yang dipilih
+        DB::table('pegawai')->where('pegawai_id', $id)->delete();
+
+        //alihkan halaman ke halaman pegawai
+        return redirect('/pegawai')->with('success', 'Data Pegawai Berhasil Dihapus');
+    }
+
+    //pencarian
+    public function cari(Request $request)
+    {
+        // menangkap data pencarian
+        $cari = $request->input('txt_cari');
+
+        // mengambil data dari table pegawai sesuai pencarian data
+        $pegawai = DB::table('pegawai')
+        ->where([
+            ['pegawai_nama', 'like', "%".$cari."%"],
+          
+        ])
+        ->orWhere([
+            ['pegawai_jabatan', 'like', "%".$cari."%"],
+        ])
+        ->orWhere([
+            ['pegawai_alamat', 'like', "%".$cari."%"],
+        ])
+        ->orWhere([
+            ['pegawai_umur', 'like', "%".$cari."%"],
+        ])
+        ->get();
+
+        // mengirim data pegawai ke view index
+        return view('admin.pegawai.index',['pegawai' => $pegawai]);
+
+    }
 }
+    
